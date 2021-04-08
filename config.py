@@ -1,0 +1,15 @@
+imageList = [] #List the file names here
+imageTimes = [] #List the lengths respectively
+noMobileTimes = [17,10,10,17,15] #How many minutes should the no mobile image display
+eventType = "slide" #scroll or slide
+beginSound = "Athan Rashid Mishary.wav" #The sound played at begin time
+prayerSound = "Athan Rashid Mishary.wav" #The sound played at prayer time
+fridaySound = "Athan Rashid Mishary.wav" #The sound played on fridays at fridaySoundTime
+fridaySoundTime = "14:00"
+daySound = "Athan Rashid Mishary.wav" #The sound played not on fridays at daySoundTime
+daySoundTime = "16:00"
+clock24hr = True #True or False
+fridayPrayerStart = "13:15"
+fridayPrayerEnd = "13:35"
+orientation = "Vertical" #Horizontal or Vertical
+jummahLength = 15
