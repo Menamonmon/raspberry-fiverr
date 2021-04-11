@@ -2,7 +2,7 @@ from PIL import Image, ImageTk
 import tkinter as tk
 
 with open("./screen_info.txt", "r") as f:
-    screen_width, screen_height = map(int, f.readline().split(","))
+    screen_width, screen_height, _ = map(int, f.readline().split(","))
 
 
 class TitleScroller:
